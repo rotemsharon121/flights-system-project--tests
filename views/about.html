@@ -31,8 +31,20 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="/" class="nav-item nav-link">Home</a>
                     <a href="/about" class="nav-item nav-link active">About</a>
-                    <a href="/flights" class="nav-item nav-link">Flights</a>
-                    <a href="/airlineCompanies" class="nav-item nav-link">Airlines</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Flights</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="/flights" class="dropdown-item">All flights</a>
+                            <a href="/flights/flight_search" class="dropdown-item">Flight search</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Airlines</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="/airlineCompanies" class="dropdown-item">All airlines</a>
+                            <a href="/airlineCompanies/airline_search" class="dropdown-item">Airline search</a>
+                        </div>
+                    </div>
                     <a href="/customers" class="nav-item nav-link">Customers</a>
                     <a href="/user_page" class="nav-item nav-link">User page</a>
                 </div>
@@ -73,9 +85,9 @@
 
                     <h1 class="mb-4">front end - <span class="text-primary">client side</span></h1>
                     <p class="mb-4">
-                        To enhance the visual design of the website, I used CSS and Bootstrap. With CSS, I styled the
-                        HTML pages in a modern way, and I utilized Bootstrap for buttons, menus, tables, and the overall
-                        layout of the site. I also incorporated JavaScript to add animations to the UI components,
+                        To improve the visual design of the website, I used CSS and Bootstrap.<br>With CSS I styled the
+                        HTML pages in a modern way and I used Bootstrap for buttons, menus, tables, and the overall
+                        layout of the site. I also include JavaScript to add animations to the UI components,
                         providing a smooth and intuitive user experience.
                     </p>
                 </div>
@@ -90,11 +102,12 @@
                 <div class="col-lg-6">
                     <h1 class="mb-4">back end - <span class="text-primary">server side</span></h1>
                     <p class="mb-4">
-                        The back end of the site is built using Node.js and Express.js, providing a robust and efficient
-                        server-side framework. I utilized Express Router to manage the routing of different endpoints,
-                        ensuring a clear and organized structure for the application's various routes. The site is
-                        developed following the MVC (Model-View-Controller) architecture, which allows for a clean
-                        separation of concerns. This architecture facilitates easy maintenance and scalability, as the
+                        The back end of the site is built using Node.js and Express.js, providing a strong and efficient
+                        server-side framework. I apply Express Router to manage the routing of different endpoints
+                        ensuring a clear and organized structure for the application's various routes.<br>The site is
+                        developed following the MVC (Model-View-Controller) architecture, which helps keep the code
+                        organized by separating the data, the user interface, and the logic. This architecture
+                        assist easy maintenance and scalability, as the
                         data management (Model), user interface (View), and application logic (Controller) are all
                         handled independently yet cohesively.
                     </p>
@@ -114,8 +127,8 @@
                         management. I connected to the database using libraries such as Knex, MySQL, and MySQL2, which
                         provided a seamless interface for querying and managing the database. Knex was particularly
                         useful for building and executing SQL queries in a flexible and efficient manner, while MySQL
-                        and MySQL2 facilitated the connection and interaction with the database, ensuring smooth data
-                        retrieval and storage operations throughout the application.
+                        and MySQL2 improve the connection and interaction with the database, ensuring smooth data
+                        searching and storage operations throughout the application.
                     </p>
                 </div>
                 <h1 class="section-title bg-white text-start text-primary pe-3">About the developer</h1>
@@ -129,11 +142,11 @@
                 <div class="col-lg-6">
                     <h1 class="text-primary">Rotem Sharon</h1>
                     <p class="mb-4">
-                        My name is Rotem Sharon and i a full stack developer from Israel, 
-                        I am specializing in back end development and database management. 
-                        With a strong foundation in server-side technologies and data handling, 
-                        I also possesses a solid understanding of front end development, 
-                        making me a developer capable of handling both sides of the web development process- 
+                        My name is Rotem Sharon and i a full stack developer from Israel,
+                        I am specializing in back end development and database management.<br>
+                        With a strong foundation in server-side technologies and data handling,
+                        I also have a solid understanding of front end development,
+                        making me a developer capable of handling both sides of the web development process -
                         server side and client side.
                     </p>
                 </div>
