@@ -20,6 +20,7 @@ app.use('/tickets', ticketsRouter)
 app.use('/admins', adminsRouter)
 
 app.use("/public", express.static(path.join(__dirname, "public")));
+app.use("/config", express.static(path.join(__dirname, "config")));
 
 app.get('/', (req, res) => {
    res.sendFile(__dirname + '/views/index.html')
