@@ -18,7 +18,7 @@
     "mysql2": "^3.2.3",
     "nodemon": "^3.1.7"
   },
-  "description": "my private project- tests",
+  "description": "flights_system_project-tests",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rotemsharon121/flights-system-project--tests.git"
