@@ -33,9 +33,6 @@ app.get('/about', (req, res) => {
 app.get('/user_page', (req, res) => {
     res.sendFile(__dirname + '/views/user_page.html')
  })
-app.get('/register_login', (req, res) => {
-    res.sendFile(__dirname + '/views/register_login.html')
- })
 
 app.listen(PORT, () => {
     console.log(`server started on port ${PORT}`)

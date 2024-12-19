@@ -11,4 +11,4 @@ DB_USER_NAME = 'your mySQl user name'
 DB_USER_PASSWORD = 'your password'
 DATABASE_SCHEMA = 'flight_system'
 
-*(usually the default user name is 'root' )
+*(usually the default user name is 'root')

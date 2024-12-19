@@ -23,8 +23,5 @@
     "type": "git",
     "url": "git+https://github.com/rotemsharon121/flights-system-project--tests.git"
   },
-  "bugs": {
-    "url": "https://github.com/rotemsharon121/flights-system-project--tests/issues"
-  },
   "homepage": "https://github.com/rotemsharon121/flights-system-project--tests#readme"
 }
