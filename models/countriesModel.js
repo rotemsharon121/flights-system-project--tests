@@ -41,9 +41,9 @@ const getCountryById = (id) => {
     })
 }
 
-const addCountry = (country, id) => {
+const addCountry = (country) => {
     return new Promise((resolve, reject) => {
-        mysqlConnecion.query(`INSERT INTO countries(Name, id) values('${country}', '${id}');`, (error, results) => {
+        mysqlConnecion.query(`INSERT INTO countries(Name) values('${country}');`, (error, results) => {
             if (error) {
                 console.log('error in model addCountry')
                 reject(error)

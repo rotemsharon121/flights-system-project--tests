@@ -273,7 +273,7 @@ value (1, 23, 56, 89, "2025-03-15 08:30:45", "2025-03-16 10:15:30", 127),
 
 insert into customers (id, First_name, Last_name, Address, Phone_number, Credit_card_number, User_name, User_password)
 values 
-(1, 'Nisim', 'Mizrahi', '127 hertzel Street, Rehovot, IL', '555-123-4567', '4111 1111 1111 1111', 'johnsmith', 'A1B2'),
+(1, 'Nisim', 'Mizrahi', '127 hertzel Street, Rehovot, IL', '555-123-4567', '4111 1111 1111 1111', 'nisimmizrahi', 'A1B2'),
 (2, 'Emma', 'Johnson', '456 Oak Avenue, New York, NY', '555-234-5678', '4222 2222 2222 2222', 'emmajohnson', 'C3D4'),
 (3, 'Michael', 'Brown', '789 Maple Lane, Los Angeles, CA', '555-345-6789', '4333 3333 3333 3333', 'michaelbrown', 'E5F6'),
 (4, 'Sophia', 'Davis', '321 Pine Drive, Miami, FL', '555-456-7890', '4444 4444 4444 4444', 'sophiadavis', 'G7H8'),

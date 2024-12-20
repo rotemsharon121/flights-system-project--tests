@@ -1,7 +1,7 @@
 const { knex } = require('../connections/knexConnection')
 
 const getAllTickets = () => {
-    const tickets = knex.select('*').from('tickets')
+    const tickets = knex.select('*').from('tickets').orderBy('id')
     return tickets
 }
 

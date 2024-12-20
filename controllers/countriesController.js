@@ -27,8 +27,8 @@ const getCountryByIdController = async (req, res) => {
 
 const addCountryController = (req, res) => {
     const country = req.body.name
-    const id = null
-    addCountry(country, id)
+    // const id = req.params.id
+    addCountry(country)
         .then(() => {
             console.log(`new country added to countries table- ${country}`)
             res.json(`country ${country} added`)
