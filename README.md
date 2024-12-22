@@ -25,12 +25,12 @@
    Open your browser and navigate to the URL: [localhost:3000](http://localhost:3000/)  
 
 5. **Set Up the Database:**  
-   Download the *flights system database* file from the homepage (or run it directly from the `config` folder) and use it to initialize the project schema in your MySQL database.  
+   Download the *sql database file* from the homepage (or run it directly from the `config` folder) and use it to initialize the project schema in your MySQL database.  
 
    After initializing the schema, restart the server.  
 
 6. **Authentication Issues:**  
-   If you encounter authentication issues, download the *Authentication commands* file from the homepage (or the `config` folder) and follow the instructions provided.  
+   If you encounter authentication issues, download the *Authentication handling file* from the homepage (or the `config` folder) and follow the instructions provided.  
 
 7. **Verify Everything is Working:**  
    If everything is set up correctly, you should see the following lines in the terminal:  
