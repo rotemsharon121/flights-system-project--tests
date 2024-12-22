@@ -1,27 +1,47 @@
-# flights-system-project--tests
+### Instructions for Running the Flights System Project - Tests  
 
-To run the project for the first time, please enter the following commands:
+1. **Install Dependencies:**  
+   Run the following command:  
+   ```bash
+   npm install
+   ```  
 
+2. **Create a `.env` File:**  
+   Create a file named `.env` and add the following settings:  
+   ```env
+   DB_USER_NAME='your MySQL username'
+   DB_USER_PASSWORD='your password'
+   DATABASE_SCHEMA='flight_system'
+   ```  
+   *(The default username is usually `root`)*  
 
-npm init -y
+3. **Start the Server:**  
+   Run the following command:  
+   ```bash
+   npm run start
+   ```  
 
-npm install
+4. **Access the Website:**  
+   Open your browser and navigate to the URL: [localhost:3000](http://localhost:3000/)  
 
+5. **Set Up the Database:**  
+   Download the *flights system database* file from the homepage (or run it directly from the `config` folder) and use it to initialize the project schema in your MySQL database.  
 
-Please download the files from the home page to run the site with the database Connected with all of the data
+   After initializing the schema, restart the server.  
 
-Don't forget to create an .env file and write the following commands inside:
+6. **Authentication Issues:**  
+   If you encounter authentication issues, download the *Authentication commands* file from the homepage (or the `config` folder) and follow the instructions provided.  
 
+7. **Verify Everything is Working:**  
+   If everything is set up correctly, you should see the following lines in the terminal:  
+   ```
+   server started on port 3000  
+   Database connected with my sql  
+   Database connected with my sql2  
+   Database connected with knex  
+   ```  
 
-DB_USER_NAME = 'your mySQl user name'
+8. **Testing with POSTMAN:**  
+   All commands have been tested using POSTMAN. You can also use the *postman commands* file available on the homepage (or in the `config` folder) for testing.  
 
-DB_USER_PASSWORD = 'your password'
-
-DATABASE_SCHEMA = 'flight_system'
-
-
-*(usually the default user name is 'root')
-
-Finally, please run the following command-
-
-npm run start
+**Enjoy!**
